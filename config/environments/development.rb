@@ -1,4 +1,6 @@
 Rails.application.configure do
+  ENV['CLIENT_USER'] = 'oauth_client'
+  ENV['CLIENT_PASSWORD'] = 'password'
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
